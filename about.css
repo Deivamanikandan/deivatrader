@@ -13,9 +13,10 @@ body,html{
     height: 100%;
 }
 .Banner{
-    height: 50%;
+   
     background-color:#ddd;
     background-image: url("Capture1.PNG");
+     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
