@@ -14,8 +14,9 @@ body,html{
 
 /* Hompage Banner*/
 .Banner{
+     background-image: url("Capture.PNG");
     background-color: black;
-    background-image: url("Capture.PNG");
+   
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
