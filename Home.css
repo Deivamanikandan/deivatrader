@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 6 Apr, 2018, 5:39:51 PM
+    Author     : welcome
+*/
+
+body,html{
+    height: 100%;
+}
+
+/* Hompage Banner*/
+.Banner{
+    background-image: url("I:/Business/Deiva Trader/Capture.PNG");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Navbar container */
+.Navbar{
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+}
+
+/* Links inside the navbar */
+.Navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.Dropdown{
+    float: left;
+   overflow: hidden;
+}
+
+/* Dropdown button */
+.Dropdown .Dropdownbtn{
+    font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: #333;
+  font-family: inherit;/* Important for vertical align on mobile phones */
+  margin: 0;/* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.Navbar a:hover .Dropdown:hover .Dropdownbtn{
+    background-color: red;
+}
+
+
+/* Dropdown content (hidden by default) */
+.Dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.Dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.Dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.Dropdown:hover .Dropdown-content {
+  display: block;
+}
+
+/* Tab Space*/
+.Tab span{
+    display: inline-block;
+    width: 20%;
+}
+
+.Header {
+    font-family: Arial;
+    font-size:xx-large;
+    color: #333;
+    font-weight: bold;
+    
+}
+
+p{
+    
+    font-size: x-large;
+}
+
+.box{
+    border: 5px solid activeborder;
+}
