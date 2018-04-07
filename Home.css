@@ -118,3 +118,8 @@ p{
 .box{
     border: 5px solid #ddd;
 }
+
+.footer{
+    display:inline-block;
+    height:25%;
+}
