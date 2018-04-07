@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Apr, 2018, 10:31:32 AM
+    Author     : welcome
+*/
+
+
+body,html{
+    height: 100%;
+}
+.Banner{
+    height: 50%;
+    background-image: url("I:/Business/Deiva Trader/Capture1.PNG");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+p{
+    
+    font-size: x-large;
+}
+
+.Tab span{
+    display: inline-block;
+    width: 20%;
+}
+
+.Header {
+    font-family: Arial;
+    font-size:xx-large;
+    color: #333;
+    font-weight: bold;
+    
+}
+
+.box{
+    border: 5px solid activeborder;
+}
+
+.footerbox{
+  border: 1px solid #3B0B24;
+  background-color: #3B0B24;
+}
