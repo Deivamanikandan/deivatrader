@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="Shoe.css" rel="stylesheet" type="text/css"/>
+        <script src="Shoe.js"></script>
+    </head>
+    <body>
+       <div class="row">
+  <div class="column1">
+      <figure>
+      <img  src="I:\Business\Deiva Trader\shoe images\oxford\oxfordlace.jpg"  onclick="openModal();currentSlide(1)" class="hover-shadow figimg" >
+      <figcaption> Fig1 - Ox-Ford Lace</figcaption>
+      </figure>
+  </div>
+  <div class="column1">
+      <figure>
+    <img  src="I:\Business\Deiva Trader\shoe images\oxford\oxfordstrap.jpg"  onclick="openModal();currentSlide(2)" class="hover-shadow figimg">
+    <figcaption>Fig2 - Ox-Ford Girls Shoe Strap</figcaption>
+      </figure>
+  </div>
+  <div class="column1">
+      <figure>
+    <img src="I:\Business\Deiva Trader\shoe images\oxford\oxfordgola.jpg"  onclick="openModal();currentSlide(3)" class="hover-shadow figimg">
+    <figcaption>Fig3 - Ox-Ford Gola</figcaption>
+      </figure>
+  </div>
+  <div class="column1">
+      <figure>
+    <img src="I:\Business\Deiva Trader\shoe images\KayVee\kayveelace.jpg"  onclick="openModal();currentSlide(4)" class="hover-shadow figimg">
+    <figcaption>Fig4 - KayVee Lace Shoe</figcaption>
+      </figure>
+  </div>
+        <div class="column1">
+      <figure>
+    <img src="I:\Business\Deiva Trader\shoe images\KayVee\kayveestrap.jpg"  onclick="openModal();currentSlide(5)" class="hover-shadow figimg">
+    <figcaption>Fig5 - KayVee Strap Girls Shoe</figcaption>
+      </figure>
+  </div>
+        <div class="column1">
+      <figure>
+    <img src="I:\Business\Deiva Trader\shoe images\KayVee\kayveegola.jpg"  onclick="openModal();currentSlide(6)" class="hover-shadow figimg">
+    <figcaption>Fig6 - KayVee Gola</figcaption>
+      </figure>
+  </div>
+           
+           <div class="column1">
+      <figure>
+    <img src="I:\Business\Deiva Trader\shoe images\KayVee\kayveewhite.jpg"  onclick="openModal();currentSlide(7)" class="hover-shadow figimg">
+    <figcaption>Fig7 - KayVee White</figcaption>
+      </figure>
+  </div>
+        
+              <div class="column1">
+      <figure>
+    <img src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\sonaxolace.jpg"  onclick="openModal();currentSlide(8)" class="hover-shadow figimg">
+    <figcaption>Fig8 - Sonaxo Lace</figcaption>
+      </figure>
+  </div>
+           
+        <div class="column1">
+      <figure>
+    <img src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\sonaxostrap.jpg"  onclick="openModal();currentSlide(9)" class="hover-shadow figimg">
+    <figcaption>Fig9 - Sonaxo Girls Strap Shoe</figcaption>
+      </figure>
+  </div>
+           
+            <div class="column1">
+      <figure>
+    <img src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\sonaxocutshoe.jpg"  onclick="openModal();currentSlide(10)" class="hover-shadow figimg">
+    <figcaption>Fig10 - Sonaxo Girls Cut shoe </figcaption>
+      </figure>
+  </div>
+           
+           
+       <div class="column1">
+      <figure>
+    <img src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\leecooper.jpg"  onclick="openModal();currentSlide(11)" class="hover-shadow figimg">
+    <figcaption>Fig11 - LeeCooper School Shoe</figcaption>
+      </figure>
+  </div>
+           
+           
+        <div class="column1">
+      <figure>
+    <img src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\highsierrashoe.jpg"  onclick="openModal();currentSlide(12)" class="hover-shadow figimg">
+    <figcaption>Fig12 - High Sierra School Shoe</figcaption>
+      </figure>
+  </div>      
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\oxford\oxfordlace.jpg" style="width:80%;height: 600px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\oxford\oxfordstrap.jpg" style="width:80%;height: 600px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\oxford\oxfordgola.jpg" style="width:80%;height: 600px;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\KayVee\kayveelace.jpg" style="width:80%;height: 600px;">
+    </div>
+       <div class="mySlides">
+      <div class="numbertext">5 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\KayVee\kayveestrap.jpg" style="width:80%;height: 600px;">
+    </div>
+       <div class="mySlides">
+      <div class="numbertext">6 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\KayVee\kayveegola.jpg" style="width:80%;height: 600px;">
+    </div>
+       <div class="mySlides">
+      <div class="numbertext">7 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\KayVee\kayveewhite.jpg" style="width:80%;height: 600px;">
+    </div>
+        <div class="mySlides">
+      <div class="numbertext">8 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\sonaxolace.jpg" style="width:80%;height: 600px;">
+    </div>
+       <div class="mySlides">
+      <div class="numbertext">9 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\sonaxostrap.jpg" style="width:80%;height: 600px;">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">10 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\sonaxocutshoe.jpg" style="width:80%;height: 600px;">
+    </div>
+       <div class="mySlides">
+      <div class="numbertext">11 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\leecooper.jpg" style="width:80%;height: 600px;">
+    </div>
+       <div class="mySlides">
+      <div class="numbertext">12 / 12</div>
+      <img src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\highsierrashoe.jpg" style="width:80%;height: 600px;">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\oxford\oxfordlace.jpg" onclick="currentSlide(1)" alt="Ox-Ford Lace">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\oxford\oxfordstrap.jpg" onclick="currentSlide(2)" alt="Ox-Ford Girls Shoe Strap">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\oxford\oxfordgola.jpg" onclick="currentSlide(3)" alt="Ox-Ford Gola">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\KayVee\kayveelace.jpg" onclick="currentSlide(4)" alt="KayVee Lace Shoe">
+    </div>
+     <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\KayVee\kayveestrap.jpg" onclick="currentSlide(5)" alt="KayVee Strap Girls Shoe">
+    </div>
+     <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\KayVee\kayveegola.jpg" onclick="currentSlide(6)" alt="KayVee Gola">
+    </div>
+    <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\KayVee\kayveewhite.jpg" onclick="currentSlide(7)" alt="KayVee White">
+    </div>
+    <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\sonaxolace.jpg" onclick="currentSlide(8)" alt="Sonaxo Lace">
+    </div>
+     <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\sonaxostrap.jpg" onclick="currentSlide(9)" alt="Sonaxo Strap Girls Shoe">
+    </div>
+    <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\sonaxocutshoe.jpg" onclick="currentSlide(10)" alt="Sonaxo Girls Cut Shoe ">
+    </div>
+     <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\leecooper.jpg" onclick="currentSlide(11)" alt="LeeCooper School Shoe">
+    </div>
+     <div class="column">
+      <img class="demo" src="I:\Business\Deiva Trader\shoe images\Punith Bangalore\highsierrashoe.jpg" onclick="currentSlide(12)" alt="High Sierra School Shoe">
+    </div>
+  </div>
+</div>
+  
+    </body>
+</html>
